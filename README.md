@@ -18,9 +18,9 @@ With it all together
 Where is the video-id in the youtube URL?
 -----------------------------------------------------------
 
-The video id in the url it typically - "http://www.youtube.com/watch?v=<video-id>", "http://www.youtube.com/watch?v=oHg5SJYRHA0"
+The video id in the url it typically - "http://www.youtube.com/watch?v=TheVideoID", "http://www.youtube.com/watch?v=oHg5SJYRHA0"
 
-Splunk might already be extracting the "v" since it does so automatically with key=value pairs in URLs
+Splunk might already be extracting the "v" since it does so automatically with key=value pairs in URLs, so simply check the extracted fields for "v"
 
 
 What fields are available for me after the lookup?
